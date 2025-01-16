@@ -1,0 +1,105 @@
+[17:45:57] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[17:45:57] [main/INFO]: Loading 10 mods:
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.1
+	- voicechat 1.21.1-2.5.27
+	   |-- fabric-api-base 0.4.42+6573ed8c6a
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df3606a
+	   |-- fabric-networking-api-v1 4.2.2+60c3209b6a
+	   \-- fabric-resource-loader-v0 1.3.0+565991296a
+[17:45:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/aaaaaaaa/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:45:58] [main/INFO]: Compatibility level set to JAVA_17
+[17:45:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:46:06] [main/INFO]: [voicechat] Compatibility version 18
+[17:46:06] [main/INFO]: [voicechat] Loading plugins
+[17:46:06] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:46:06] [main/INFO]: [voicechat] Initializing plugins
+[17:46:06] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:46:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:46:09] [main/INFO]: Loaded 1290 recipes
+[17:46:09] [main/INFO]: Loaded 1399 advancements
+[17:46:09] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[17:46:09] [Server thread/INFO]: Loading properties
+[17:46:09] [Server thread/INFO]: Default game type: SURVIVAL
+[17:46:09] [Server thread/INFO]: Generating keypair
+[17:46:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:46:10] [Server thread/INFO]: Using epoll channel type
+[17:46:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:46:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:46:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:46:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:46:10] [Server thread/INFO]: Preparing level "world"
+[17:46:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:46:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:46:15] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[17:46:15] [Server thread/INFO]: Time elapsed: 662 ms
+[17:46:15] [Server thread/INFO]: Done (4.908s)! For help, type "help"
+[17:46:15] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:46:15] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 172.30.124.31:24454
+[17:48:13] [Server thread/INFO]: DaVIcHoz21[/172.30.41.140:55641] logged in with entity id 9 at (-808.3158203723875, 63.0, 269.2805084039528)
+[17:48:13] [Server thread/INFO]: DaVIcHoz21 joined the game
+[17:48:13] [Server thread/INFO]: troll_face300[/172.30.212.217:58051] logged in with entity id 10 at (-918.9554826212116, 79.72878853889424, 481.3396031810757)
+[17:48:13] [Server thread/INFO]: troll_face300 joined the game
+[17:50:39] [Server thread/WARN]: troll_face300 moved too quickly! -9.975262460854651,-3.132072905889217,14.3177985930825
+[17:55:56] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> -1442/9/1456
+[18:15:11] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> -1442/9/1456
+[18:16:57] [Server thread/INFO]: [Not Secure] <troll_face300> no
+[18:17:03] [Server thread/INFO]: [Not Secure] <troll_face300> no
+[18:17:11] [Server thread/INFO]: [Not Secure] <troll_face300> vamos a probar la granja
+[18:18:07] [Server thread/INFO]: [Not Secure] <troll_face300> ya voy
+[18:18:28] [Server thread/WARN]: troll_face300 moved too quickly! -2.873891117368885,11.052706400465965,7.397414126564854
+[18:18:56] [Server thread/INFO]: [Not Secure] <troll_face300> ._:
+[18:19:30] [Server thread/INFO]: [Not Secure] <troll_face300> si no funciona?
+[18:19:38] [Server thread/INFO]: [Not Secure] <troll_face300> si xd
+[18:19:54] [Server thread/INFO]: [Not Secure] <troll_face300> haber
+[18:20:00] [Server thread/INFO]: [Not Secure] <troll_face300> si desaparece eres gay
+[18:20:09] [Server thread/INFO]: [Not Secure] <troll_face300> ojo
+[18:20:57] [Server thread/INFO]: [Not Secure] <troll_face300> DaVIcHoz21
+[18:21:07] [Server thread/INFO]: [Not Secure] <troll_face300> a
+[18:21:24] [Server thread/INFO]: [Not Secure] <troll_face300> aaaaaaa
+[18:21:43] [Server thread/INFO]: [Not Secure] <troll_face300> si
+[18:21:56] [Server thread/INFO]: [Not Secure] <troll_face300> .____________.
+[18:22:05] [Server thread/INFO]: [Not Secure] <troll_face300> xd?
+[18:22:15] [Server thread/INFO]: [Not Secure] <troll_face300> si te mueres
+[18:22:17] [Server thread/INFO]: [Not Secure] <troll_face300> no recojo tus cosas
+[18:22:19] [Server thread/INFO]: [Not Secure] <troll_face300> porsiaca
+[18:22:28] [Server thread/INFO]: [Not Secure] <troll_face300> .______:
+[18:23:03] [Server thread/INFO]: [Not Secure] <troll_face300> xddd
+[18:23:25] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 0.1379208830544485,11.675839196499481,0.10457787678632258
+[18:35:35] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 0.287261934289063,11.586484770699016,14.039504338102383
+[18:36:43] [Server thread/WARN]: DaVIcHoz21 moved too quickly! -4.94507338728647,10.815078506940722,-3.1172681184073667
+[18:39:22] [Server thread/WARN]: troll_face300 moved too quickly! 19.48532385826286,-1.0690152452182247,-33.86767308075417
+[18:40:50] [Server thread/INFO]: troll_face300 lost connection: Disconnected
+[18:40:50] [Server thread/INFO]: troll_face300 left the game
+[18:40:50] [Server thread/INFO]: [voicechat] Disconnecting client troll_face300
+[18:48:57] [Server thread/WARN]: DaVIcHoz21 moved too quickly! -4.323426960902566,3.2233818638186094,10.707369737565386
+[18:49:37] [Server thread/INFO]: DaVIcHoz21 has made the advancement [Local Brewery]
+[18:50:01] [Server thread/INFO]: Villager class_1646['Cleric'/40589, l='ServerLevel[world]', x=-342.63, y=50.00, z=660.50] died, message: 'Cleric burned to death'
+[18:50:12] [Server thread/INFO]: Villager class_1646['Leatherworker'/40594, l='ServerLevel[world]', x=-342.47, y=50.00, z=661.78] died, message: 'Leatherworker was burned to a crisp while fighting DaVIcHoz21'
+[18:50:21] [Server thread/INFO]: Villager class_1646['Cleric'/40592, l='ServerLevel[world]', x=-342.51, y=50.00, z=660.53] died, message: 'Cleric was slain by DaVIcHoz21 using [ELUCITATOR]'
+[18:50:52] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 4.464962376083292,8.654691037492732,7.022369217932351
+[18:55:54] [Server thread/INFO]: DaVIcHoz21 has made the advancement [Sneak 100]
+[19:05:22] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 6.583070356065093,13.359698646640126,10.002081849526462
+[19:05:44] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 0.6434095552146744,-5.626124321329527,9.247069803475824
+[19:06:06] [Server thread/INFO]: troll_face300[/172.30.212.217:59049] logged in with entity id 48674 at (-472.5, 63.0, -535.5)
+[19:06:06] [Server thread/INFO]: troll_face300 joined the game
+[19:06:11] [Server thread/INFO]: [Not Secure] <troll_face300> juan
+[19:06:22] [Server thread/INFO]: [Not Secure] <troll_face300> te has puesto el pack de texturas?
+[19:06:24] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> no
+[19:06:26] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> no me deja
+[19:06:40] [Server thread/INFO]: [Not Secure] <troll_face300> habla pe
+[19:06:43] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> casi me muero en una ancient citu
+[19:06:46] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 0.08928397129915311,3.502147881289787,-17.769647215066243
+[19:06:48] [Server thread/INFO]: [Not Secure] <troll_face300> ._.
+[19:07:04] [Server thread/WARN]: DaVIcHoz21 moved too quickly! 7.5697568008566805,-7.666487870427204,3.2213296280258987
+[19:07:14] [Server thread/INFO]: [Not Secure] <DaVIcHoz21> UN GATO
+[19:07:20] [Server thread/INFO]: [Not Secure] <troll_face300> pero hab.
+[19:07:21] [Server thread/INFO]: [Not Secure] <troll_face300> la
+[19:09:11] [Server thread/INFO]: Villager class_1646['Nitwit'/50270, l='ServerLevel[world]', x=-476.79, y=62.94, z=-736.70] died, message: 'Nitwit was slain by DaVIcHoz21 using [ELUCITATOR]'
+[19:12:01] [Server thread/INFO]: DaVIcHoz21 has made the advancement [Glow and Behold!]
+[19:13:20] [Server thread/INFO]: troll_face300 was slain by DaVIcHoz21
+[19:15:11] [Server thread/INFO]: troll_face300 was burned to a crisp while fighting DaVIcHoz21

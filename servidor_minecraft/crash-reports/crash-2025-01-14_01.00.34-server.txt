@@ -1,0 +1,84 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2025-01-14 01:00:34
+Description: Exception in server tick loop
+
+java.io.UncheckedIOException: java.nio.file.NoSuchFileException: /workspaces/aaaaaaaa/servidor_minecraft/mods/voicechat-fabric-1.21.1-2.5.27.jar
+	at net.fabricmc.loader.impl.util.LoaderUtil.normalizeExistingPath(LoaderUtil.java:46)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getCodeSource(KnotClassDelegate.java:515)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getMetadata(KnotClassDelegate.java:363)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:338)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at de.maxhenkel.voicechat.plugins.PluginManager.onPlayerDisconnected(PluginManager.java:189)
+	at de.maxhenkel.voicechat.voice.server.Server.disconnectClient(Server.java:197)
+	at de.maxhenkel.voicechat.voice.server.Server.onPlayerLoggedOut(Server.java:79)
+	at de.maxhenkel.voicechat.voice.server.ServerVoiceEvents.playerLoggedOut(ServerVoiceEvents.java:151)
+	at de.maxhenkel.voicechat.events.PlayerEvents.lambda$static$2(PlayerEvents.java:19)
+	at net.minecraft.class_3324.handler$zce000$voicechat$onPlayerConnect(class_3324.java:1994)
+	at net.minecraft.class_3324.method_14611(class_3324.java)
+	at net.minecraft.class_3244.method_52415(class_3244.java:1250)
+	at net.minecraft.class_3244.method_10839(class_3244.java:1239)
+	at net.minecraft.class_2535.method_10768(class_2535.java:673)
+	at net.minecraft.class_3242.method_14357(class_3242.java:189)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1032)
+	at net.minecraft.class_3176.method_3813(class_3176.java:299)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.file.NoSuchFileException: /workspaces/aaaaaaaa/servidor_minecraft/mods/voicechat-fabric-1.21.1-2.5.27.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834)
+	at net.fabricmc.loader.impl.util.LoaderUtil.normalizeExistingPath(LoaderUtil.java:44)
+	... 23 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 21.0.5, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1374627216 bytes (1310 MiB) / 2147483648 bytes (2048 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7990.52
+	Virtual memory used (MiB): 4200.23
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 92434.46, total: 120377.56
+	Space in storage for workdir (MiB): available: 16298.41, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	Server Running: true
+	Player Count: 2 / 20; [class_3222['DaVIcHoz21'/11, l='ServerLevel[world]', x=-469.57, y=63.00, z=-534.88], class_3222['troll_face300'/1486, l='ServerLevel[world]', x=-507.93, y=64.00, z=-495.08]]
+	Active Data Packs: vanilla, fabric
+	Available Data Packs: bundle, fabric, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -3033459207509754782
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
